@@ -1,0 +1,14 @@
+﻿<Window x:Class="homework03.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:homework03"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="{DynamicResource {x:Static SystemColors.ActiveCaptionTextBrushKey}}" Margin="0,0,0.333,-0.333">
+        <Button x:Name="btHello" Content="Hello" HorizontalAlignment="Left" Height="59" Margin="670,175,0,0" VerticalAlignment="Top" Width="118" FontWeight="Bold" FontFamily="Ravie" FontSize="22" Click="BtHello_Click" Background="White" RenderTransformOrigin="0.379,-1.164"/>
+        <Image Margin="0,0,123,47" Source="图层 1.png" Stretch="Fill"/>
+        <Button x:Name="btBYE" Content="BYE" HorizontalAlignment="Left" Height="59" Margin="670,272,0,0" VerticalAlignment="Top" Width="118" FontFamily="Ravie" FontSize="22" FontWeight="Bold" Background="White" RenderTransformOrigin="1.164,0.531" Click="BtBYE_Click"/>
+    </Grid>
+</Window>
